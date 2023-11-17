@@ -1,0 +1,22 @@
+- name: Start SSH
+  # You may pin to the exact commit or the version.
+  # uses: Tofandel/ssh-server-action@14e8cd7378e39c4fe5035e7a8ff1b2742e7b24a5
+  uses: Tofandel/ssh-server-action@v1.0.0
+  with:
+    # The hostname of the ssh server
+    hostname: # optional
+    # Debug the ssh connection
+    debug: # optional
+    # The internal port of the ssh server
+    port: # optional, default is 22
+    # The user name
+    user_name: # optional, default is ssh-user
+    # The user password
+    user_password: # optional
+    # Allow sudo access
+    sudo_access: # optional
+    # Public key authorized to access the server
+    public_key: # optional
+    # Public key authorized to access the server
+    public_key_url: # optional
+          
